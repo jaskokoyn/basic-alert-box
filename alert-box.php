@@ -20,7 +20,7 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function u_plus_alert_box_block_init() {
+function uBasicAlertBox_plus_alert_box_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'u_plus_alert_box_block_init' );
+add_action( 'init', 'uBasicAlertBox_plus_alert_box_block_init' );
